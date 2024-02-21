@@ -1,0 +1,447 @@
+
+@media only screen and (min-width: 1200px)  {
+	
+	
+	header .topnav .left{
+		padding-left:0 0 0 7px;
+	}
+	
+	header .topnav .left{
+		padding-left: 0;
+	}
+	header .topnav .left .address,.email , {
+		padding-left: 0;
+	}
+	
+	
+	header .topnav .left .number,.link {
+		padding-left: 0;
+	}
+ .navbar .right_header{
+	 gap:5px;
+ }
+ 
+ .bannerParent {
+	 width:100%;
+ }
+ 
+   .overlay_Text {
+    position: absolute;
+    width: 40%;
+    text-align: right;
+    color: white;
+    top: 30%;
+	border:1px solid black;
+	left:59%;
+     
+    transform: translate( -50% ,-50%);
+}
+ .card{
+	 width:220px;
+ }
+ .items_of_services_card {
+    padding-inline: 7%;
+}
+}
+
+  @media (min-width: 992px) and   (max-width:1199px)  {
+
+
+    header .topnav{ 
+		 width:100%; 
+	 } 
+    
+	.navbar{
+		width:100%;
+		    justify-content: space-around;
+	}
+	
+	.navbar .mid_header{
+		display:none;
+	}
+	
+	header .topnav .left .address,.email , {
+		padding-left: 0;
+	}
+	
+	
+	header .topnav .left .number,.link {
+		padding-left: 0;
+	}
+	.bannerParent {
+    width: 100%;
+    
+}
+	
+  .bannerParent .overlay_Text {
+    position: absolute;
+    /* max-width: 40%; */
+    text-align: right;
+    height: 80%;
+    color: white;
+    top: 40%;
+    left: 68%;
+    transform: translate( -50% ,-50%);
+}
+ 
+
+
+.overlay_Text h1 {
+    /* margin-bottom: 20px; */
+    margin: 0;
+    /* display: block; */
+    font-size: 60px;
+    /* font-weight: 700; */
+    /* line-height: 75px; */
+}
+
+
+ 
+
+   section.job_title {
+    flex-direction: column;
+	    width: 100%;
+    gap: 30px;
+}
+
+ section.job_title .left_job_title{
+		width:100%;
+		padding-left: 6%;
+	}
+	
+ .job_title .right_job_title{
+		width:100%;
+	 padding-left: 3%;
+	}
+	
+.card {
+    width: 36%;
+    margin-left: 2%;
+}
+
+.card-2 {
+    position: absolute;
+    top: 28%;
+    left: 43%;
+}
+
+.recruitment_process {
+    margin: 0;
+    /* padding: 60px; */
+    width: 100%;
+    font-family: 'League Spartan', sans-serif;
+    background-color: #fffff;
+    color: #515151;
+}
+  .right_job_title img {
+    right: 0;
+    max-width: 65%;
+    /* width: 30%; */
+    /* height: 30%; */
+    margin-left: 30%;
+}
+
+.box {
+    width: 40%;
+    height: 40%;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+  .Customers_feedback_parent .Customers_feedback_img {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2px 0 2px 0;
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+ .feedback_info {
+    box-sizing: border-box;
+    width: 100%;
+    color: #ffff;
+    padding: 40px 80px 40px 20px;
+}
+
+.service_section {
+    width: 100%;
+	    padding: 80px 0px;
+    /* padding: 80px 80px; */
+    background: #F0F3F9;
+    color: #4a4e56;
+    margin: 0;
+}
+.service_cr{
+    gap: 40px;	
+	padding:10px;
+}
+
+.service_crd_box {
+    border-radius: 15px;
+       width: 45%;
+    height: 40%;
+    border: 1px solid grey;
+    background-color: #ffff;
+    transition: all 0.5s linear;
+    overflow: hidden;
+    position: relative;
+}
+
+.case_study_carts{
+	 
+		justify-content: center;
+	    gap: 25px;
+    	
+	}
+	
+
+	.study_crt_box {
+    width: 36%;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    /* transition: all 0.8s ease; */
+}
+
+
+.member_card {
+    position: relative;
+    width: 45%;
+    overflow: hidden;
+}
+
+
+.crd_of_Intelligence_4Coloum .content_box {
+   width: 45%;
+    position: relative;
+}
+
+  .feedback_info {
+    box-sizing: border-box;
+    width: 100%;
+    color: #ffff;
+    padding: 40px 80px 40px 20px;
+   }   
+
+.person_of_feedback {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+/* .foter_blocks { */
+    /* width: 45%; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* gap: 20px; */
+/* } */
+
+	
+}
+
+@media  screen and (min-width: 768px) and (max-width: 991px){
+	 
+	  header{
+		 width:100%;
+	  }
+	  
+	   header .topnav{ 
+		 width:100%; 
+	 } 
+	 
+   .navbar{
+		width:100%;
+		    justify-content: space-around;
+	}
+	
+	.navbar .mid_header{
+		display:none;
+	}
+	
+	header .topnav .left .address,.email , {
+		padding-left: 0;
+	}
+	
+	
+	header .topnav .left .number,.link {
+		padding-left: 0;
+	}
+
+   .bannerParent {
+	 width:100%;
+ }
+ 
+ .bannerParent .overlay_Text {
+    position: absolute;
+    width: 60%;
+    text-align: right;
+    color: white;
+    top: 42%;
+    /* border: 1px solid black; */
+    left: 50%;
+    transform: translate( -50% ,-50%);
+}
+ .overlay_Text h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 27px;
+    line-height: 40px;
+}
+     section.job_title {
+    flex-direction: column;
+	    width: 100%;
+    gap: 30px;
+}
+
+ section.job_title .left_job_title{
+		width:100%;
+		padding-left: 6%;
+	}
+	
+ .job_title .right_job_title{
+		width:100%;
+	 padding-left: 3%;
+	}
+
+      	
+ }
+ 
+ @media screen and (min-width: 479px) and (max-width: 767px){
+	
+	 header{
+		 width:100%;
+	  }
+	  
+	   header .topnav{ 
+		 width:100%; 
+	 } 
+	 
+   .navbar{
+		width:100%;
+		    justify-content: space-around;
+	}
+	
+	.navbar .mid_header{
+		display:none;
+	}
+	
+	header .topnav .left .address,.email , {
+		padding-left: 0;
+	}
+	
+	
+	header .topnav .left .number,.link {
+		padding-left: 0;
+	}
+
+   .bannerParent {
+	 width:100%;
+ }
+ 
+ .bannerParent .overlay_Text {
+    position: absolute;
+    width: 60%;
+    text-align: right;
+    color: white;
+    top: 42%;
+    /* border: 1px solid black; */
+    left: 50%;
+    transform: translate( -50% ,-50%);
+}
+ .overlay_Text h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 27px;
+    line-height: 40px;
+}
+     section.job_title {
+    flex-direction: column;
+	    width: 100%;
+    gap: 30px;
+}
+
+ section.job_title .left_job_title{
+		width:100%;
+		padding-left: 6%;
+	}
+	
+ .job_title .right_job_title{
+		width:100%;
+	 padding-left: 3%;
+	}
+
+	
+ }
+ 
+ 
+ @media screen and (max-width: 478px){
+	
+	 header{
+		 width:100%;
+	  }
+	  
+	   header .topnav{ 
+		 width:100%; 
+	 } 
+	 
+   .navbar{
+		width:100%;
+		    justify-content: space-around;
+	}
+	
+	.navbar .mid_header{
+		display:none;
+	}
+	
+	header .topnav .left .address,.email , {
+		padding-left: 0;
+	}
+	
+	
+	header .topnav .left .number,.link {
+		padding-left: 0;
+	}
+
+   .bannerParent {
+	 width:100%;
+ }
+ 
+ .bannerParent .overlay_Text {
+    position: absolute;
+    width: 60%;
+    text-align: right;
+    color: white;
+    top: 42%;
+    /* border: 1px solid black; */
+    left: 50%;
+    transform: translate( -50% ,-50%);
+}
+ .overlay_Text h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 27px;
+    line-height: 40px;
+}
+     section.job_title {
+    flex-direction: column;
+	    width: 100%;
+    gap: 30px;
+}
+
+ section.job_title .left_job_title{
+		width:100%;
+		padding-left: 6%;
+	}
+	
+ .job_title .right_job_title{
+		width:100%;
+	 padding-left: 3%;
+	}
+	
+	 
+	 
+ }

@@ -1,0 +1,62 @@
+ 
+*{
+	margin:0px;
+	padding:0px;
+}
+ 
+
+.banner{
+position: relative;
+  text-align: center;
+  color: white;
+}
+.banner img{
+position:relative;
+}
+
+.headings1 {
+  position: absolute;
+  color:red;
+  left :10%;
+  bottom:50%;
+  justify-items:center;
+  align-items:center;
+  
+   
+
+}
+
+.banner img {
+   width: 100%;
+   height: auto;
+   
+
+ }
+ 
+.container {
+    padding: 5px;
+    display: flex;
+    gap: 30px;
+    height: 40px;
+    align-items: center;
+    align-self: flex-end;
+    width: 100%;
+    justify-items: baseline;
+    align-content: stretch;
+    justify-items: center;
+    background-color: orange;
+    justify-content:space-around;
+    align-item: end;
+}
+  #home{
+  
+background-color:yellow;
+
+}
+
+ 
+ 
+  
+ .parent{
+	 display:flex; 
+ }

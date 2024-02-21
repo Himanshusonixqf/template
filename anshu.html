@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+	
+	<style>
+	 
+*{
+	margin:0px;
+	padding:0px;
+}
+ 
+ 
+ .navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a{
+ float:left;
+color:white;
+text-align:center;
+ 
+padding:12px;
+text-decoration:none;}
+
+.navbar a:hover ,  .dropdown:hover .dropbtn{
+background-color:red;}
+
+.dropdown{
+   float: left;
+overflow:hidden;
+}
+
+.dropdown .dropbtn{
+padding:12px;
+font-size:18px;
+background-color:inherit;
+float:center;
+color:white;
+ outline: none;
+ border:none;
+}
+
+
+
+.dropdown-content{
+display:none;
+position:absolute;
+  width: 86px;
+z-index:1;
+}
+
+
+.dropdown-content a{
+width:100%;
+ background-color:lightgreen;
+ color:white;
+padding:12px 16px;
+display:block;
+text-decoration:none;
+text-align:left;
+ 
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown1{
+float:left;
+ overflow:hidden;
+}
+.dropdown1 a{
+padding:12px;
+font-size:18px;
+background-color:inherit;
+float:center;
+color:white;
+ outline: none;
+ border:none;
+}
+
+
+.dropdown-content1{
+ display:none;
+text-align:left;
+padding:12px  16px;
+    width: 85px;
+    z-index: 1;
+  
+position:absolute;
+ 
+}
+
+.dropdown-content1 a{
+text-decoration:none;
+display:block;
+background-color:lightgreen;
+width:85px;
+ 
+text-align:left;
+}
+
+.dropdown-conten1 a:hover {
+  background-color: #ddd;
+}
+
+.dropdown1:hover .dropdown-content1{
+margin-top:32px;
+display:block;}
+ 
+ .image-container{
+ position:relative;
+ }
+ 
+.image-container .banner{
+max-width:100%;
+ 
+<!-- width:100%; -->
+<!-- height:auto; -->
+<!-- object-fit:cover; -->
+}
+
+ .overlay-text{
+   
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
+ 
+ 
+ 
+	
+ 
+ .products{
+ z-index: -1;
+     position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+ }
+ 
+ 
+ .column {
+ 
+   
+    
+    box-shadow: 5px 17px lightgreen;
+	 
+}
+
+.navbaar{
+display:flex;
+ 
+color:black;
+justify-content:flex-start;
+height:29px;
+gap:20px;}
+
+.dropd{
+display:block;
+padding: 0px 20px;
+}
+.dropd:hover {
+background-color:red;
+color:white;}
+
+.dropd a{
+color:black;
+text-decoration:none;}
+
+.dropd-item{
+z-index:1;
+display:none;
+padding:12px 16px; 
+position:absolute;
+
+ width:50%;
+ }
+
+.dropd-item li{
+list-style-type:none;
+background-color:lightgreen;
+  
+ 
+}
+.dropd:hover .dropd-item{
+display:block;
+}
+ 
+ .inner-dropd-item1{
+ position:absolute;
+
+  
+ z-index:1;
+ }
+ 
+:first-child {
+ display:inline-block;
+ 
+ }
+ 
+</style>
+</head>
+
+
+<body>
+ 
+
+    <div class="navbaar">
+	
+ <div class="dropd">
+ <a class="dbtn" href="#"> HOME</a> 
+ <ul class="dropd-item">
+ <li>1first 
+ <ul>  
+ <a class="dbtn" href="#">innerfirst</a>
+ <a class="dbtn" href="#">innersecond</a>
+ <a class="dbtn" href="#">innerthird</a>
+ </ul> </li>
+ <li>1second</li>
+ <li>1third</li>
+ <li>1fourth</li>
+ </ul>
+ </div>
+ 
+ 
+ <div class="dropd">
+ <a class="dbtn" href="#">ABOUT</a>
+ <ul class="dropd-item">
+ <li>1first</li>
+ <li>1second</li>
+ <li>1third</li>
+ <li>1fourth</li>
+ </ul>
+ </div>
+ 
+ <div class="dropd">
+ <a class="dbtn" href="#"> CONTACT</a>
+ <ul class="dropd-item">
+<li>1first</li>
+ <li>1second</li>
+ <li>1third</li>
+ <li>1fourth</li>
+ </ul>
+ </div>
+	 
+		 
+  <!-- <div class="dropdown"> -->
+ <!-- <button class="dropbtn"> MEETINGS   </button> -->
+  <!-- <div class="dropdown-content"> -->
+  <!-- <a href="#">STUDENT</a> -->
+   <!-- <a href="#">PARENT</a> -->
+    <!-- <a href="#">STAFF</a> -->
+   <!-- </div> -->
+  <!-- </div>  -->
+  
+  </div> 
+  
+ 
+
+	
+    <div class="image-container">
+        <img class="banner"  src="pexels-andrea-piacquadio-3807755.jpg" alt="image">
+		 
+        <div class="overlay-text">
+		
+		
+				<div class="products">
+            <div class="column">
+                <img   src="PI pizza.jpg" alt="Snow"  >
+              </div>
+              <div class="column">
+                <img src="PI pizza.jpg" alt="Forest" >
+              </div>
+			  <br>
+			  
+              </div>
+			  
+            <h5 class="heading5"> Hello Student </h5>
+            <h1  class="heading1"> WELCOME TO THE EDUCATION </h1>
+            <P  class="paragraph1"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis quibusdam soluta repellat deleniti
+                similique consequatur accusamus placeat ipsam provident, distinctio, deserunt voluptatum voluptate
+                tempore. Ea architecto harum excepturi assumenda inventore magnam temporibus distinctio nostrum,
+                pariatur maiores fugiat sed consequatur, iste tempore nihil qui? Quam maxime alias dolorum labore? Quia,
+                aliquam.</P>
+            <button class="joinbtn"> Join now </button>
+                 
+               
+			</div>
+			
+		 
+		 </div>
+		</div>
+		
+		
+		 
+
+</body>
+
+</html>
